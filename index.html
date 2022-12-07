@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
     <title>Viajes de Chile</title>
 </head>
 
@@ -246,6 +250,26 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="contacto" class="container my-4 px-5 px-md-0 quick-400 ">
+            <h2 class="text-center text-white quick-700">CONTACTO</h2>
+            <form>
+                <div class="mb-3 text-white">
+                    <label for="input1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="formName" placeholder="Nombre">
+                </div>
+                <div class="mb-3 text-white">
+                    <label for="input2" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="formAsunto" placeholder="Asunto">
+                </div>
+                <div class="mb-3 text-white">
+                    <label for="input3" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="formMensaje" rows="3"></textarea>
+                </div>
+                <button id="enviar-button" type="submit" class="btn bg-info text-white" data-bs-toggle="tooltip"
+                    data-bs-placement="bottom" title="Enviar formulario">Enviar</button>
+            </form>
         </section>
 
     </main>

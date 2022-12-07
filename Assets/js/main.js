@@ -7,3 +7,7 @@ $(function () {
   
     y > 300 ? $("nav").addClass("nav-black") : $("nav").removeClass("nav-black");
   });
+
+  $("#enviar-button").click(function () {
+    alert("El formulario fue enviado");
+});
