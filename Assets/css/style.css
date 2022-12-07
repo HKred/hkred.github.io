@@ -4,6 +4,26 @@ body {
     background-color: black;
     color: #fff;
   }
+
+  .nav-black {
+    background-color: purple;
+    opacity: 0.9;
+    color: white;
+  }
+
   .carrousel {
     aspect-ratio: 5/4;
   }
+
+  .cardimagen {
+    width: 100%;
+    height: 20vh;
+    object-fit:fill;
+    }
+
+  .footer-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
